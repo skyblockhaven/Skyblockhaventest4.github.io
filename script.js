@@ -155,6 +155,22 @@ document.querySelectorAll("nav a").forEach(link => {
 
         link.classList.add("active");
 
+        // Close the mobile menu after picking a link
+        const nav = document.querySelector("nav");
+        if (nav) nav.classList.remove("open");
+
     });
 
 });
+
+// ===== Hamburger Menu Toggle =====
+const hamburgerBtn = document.getElementById("hamburgerBtn");
+const navEl = document.querySelector("nav");
+
+if (hamburgerBtn && navEl) {
+
+    hamburgerBtn.addEventListener("click", () => {
+        navEl.classList.toggle("open");
+    });
+
+}
