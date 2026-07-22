@@ -333,7 +333,7 @@ select:focus{
 }
 
 .dot.online{ background:#08ff00; box-shadow:0 0 10px #08ff00; }
-/* .dot.fix{ background:#facc15; box-shadow:0 0 10px #facc15; }*/
+/* .dot.Maintenance{ background:#facc15; box-shadow:0 0 10px #facc15; }*/
 .dot.offline{ background:#ef4444; box-shadow:0 0 10px #ef4444; }
 
 /* News */
