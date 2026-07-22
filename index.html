@@ -1,251 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyBlockHaven</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>SkyBlockHaven Network</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
 
+<header>
+    <div class="logo">⛏️ <span>SkyBlockHaven</span></div>
 
-<div class="blocks">
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-</div>
+    <nav>
+        <a href="index.html">🏠 Home</a>
+        <a href="servers.html">🌐 Servers</a>
+        <a href="news.html">📢 News</a>
+        <a href="rules.html">📜 Rules</a>
+        <a href="applications.html">📝 Applications</a>
+        <a href="staff.html">👥 Staff</a>
+        <a href="mods.html">🔧 Mods</a>
+        <a href="discord.html">💬 Discord</a>
+        <a href="admin.html">🛡️ Admin</a>
+    </nav>
+</header>
 
+<section id="home" class="hero">
 
+    <h1 id="typing"></h1>
+    <div class="tagline">NETWORK</div>
 
-<nav>
-
-<h2>⛏️ SkyBlockHaven</h2>
-
-<a href="index.html">🏠 Home</a>
-
-<a href="servers.html">🌐 Servers</a>
-
-<a href="news.html">📢 News</a>
-
-<a href="rules.html">📜 Rules</a>
-
-<a href="applications.html">📝 Applications</a>
-
-<a href="staff.html">👥 Staff</a>
-
-<a href="mods.html">🔧 Mods</a>
-
-<a href="discord.html">💬 Discord</a>
-
-<a href="admin.html">🛡️ Admin</a>
-
-</nav>
-
-
-
-<main>
-
-
-<section class="hero">
-
-
-<div class="logo">
-
-⛏️ SkyBlockHaven
-
-<small>
-NETWORK
-</small>
-
-</div>
-
-
-<p>
-Create • Explore • Survive
-</p>
-
-
-
-<button onclick="copyIP()">
-Copy Server IP
-</button>
-
+    <div class="buttons">
+        <button class="btn" onclick="copyIP()">📋 Copy Server IP</button>
+        <a href="discord.html" class="btn secondary">Join Discord</a>
+    </div>
 
 </section>
 
+<section id="status">
 
+<h2>🌐 Server Status</h2>
 
-
-
-<section class="card">
-
-
-<h2>
-🌐 Server Status
-</h2>
-
-
-<div class="status">
-
-🟡 SkyBlockHaven SMP
-<br>
-🔴 SkyBlockHaven Anarchy
-
+<div class="status-list">
+    <div class="status-row"><span><span class="dot online"></span>SkyBlockHaven SMP</span><span>Online</span></div>
+    <div class="status-row"><span><span class="dot offline"></span>SkyBlockHaven Anarchy</span><span>Offline</span></div>
 </div>
 
+</section>
+
+<section id="news">
+
+<h2>📢 Latest News</h2>
+
+<div class="news-post card">
+<h3>SkyBlockHaven Network Update</h3>
+<p>Thank you for your patience and support while we improve the network and prepare exciting updates.</p>
+<a class="view-link" href="news.html">Read More →</a>
+</div>
 
 </section>
 
+<section id="servers">
 
+<h2>⚔️ Our Servers</h2>
 
+<div class="cards">
 
-
-
-
-<section class="card">
-
-
-<h2>
-📢 Latest News
-</h2>
-
-
-<h3>
-SkyBlockHaven Network Update
-</h3>
-
-
-<p>
-Thank you for your patience and support while we improve the network and prepare exciting updates.
-</p>
-
-
-<a class="button" href="news.html">
-Read More
-</a>
-
-
-</section>
-
-
-
-
-
-
-
-
-<section class="card">
-
-
-<h2>
-⚔️ Our Servers
-</h2>
-
-
-
-<div class="grid">
-
-
-<div>
-
-<h3>
-⚔️ Anarchy
-</h3>
-
-<p>
-Trust No One.
+<div class="card">
+<h3>⚔️ Anarchy</h3>
+<p>Trust No One.
 Build Wisely.
-Survive the Chaos.
-</p>
-
-<a class="button" href="servers.html">
-View
-</a>
-
+Survive the Chaos.</p>
+<a class="view-link" href="servers.html">View →</a>
 </div>
 
-
-
-<div>
-
-<h3>
-🌲 SMP
-</h3>
-
-<p>
-Create.
+<div class="card">
+<h3>🌲 SMP</h3>
+<p>Create.
 Explore.
-Build Together.
-</p>
-
-<a class="button" href="servers.html">
-View
-</a>
+Build Together.</p>
+<a class="view-link" href="servers.html">View →</a>
+</div>
 
 </div>
 
-
-
-</div>
-
-
 </section>
 
+<section id="discord">
 
+<h2>💬 Join Our Discord</h2>
 
+<p>Join the SkyBlockHaven community!</p>
 
-
-
-
-
-<section class="card">
-
-
-<h2>
-💬 Join Discord
-</h2>
-
-
-<p>
-Join the SkyBlockHaven community!
-</p>
-
-
-<a class="button" href="#">
-Discord
-</a>
-
+<a class="btn" href="discord.html">Join Discord</a>
 
 </section>
-
-
-
-
-
 
 <footer>
-
-© 2026 SkyBlockHaven Network
-
+    <p>© 2026 SkyBlockHaven. All Rights Reserved.</p>
 </footer>
-
-
-
-</main>
-
-
 
 <script src="script.js"></script>
 
-
 </body>
-
 </html>
